@@ -8,8 +8,7 @@ log4jsF = function() {
   }else{
     __ROOT_APP_PATH__ += "../../../../../../";
 
-    var log4js = require('log4js'),
-    today = ' '+(new Date()).toLocaleDateString(); // include log4js
+    var today = ' '+(new Date()).toLocaleDateString(); // include log4js
 
     log4js.configure({ // configure to use all types in different files.
       appenders: [{
